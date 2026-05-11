@@ -35,7 +35,7 @@ class Product {
 
 
 (()=>{
-    const bluePants = new Product('Blue Prints');
+    const bluePants = new Product('Blue Pants', 10, 'S');
     console.log(bluePants.toString())
 })();
 
